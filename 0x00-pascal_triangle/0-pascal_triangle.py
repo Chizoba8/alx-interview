@@ -30,4 +30,3 @@ def pascal_triangle(n):
                 arr.append(matrix[i-1][j-1] + matrix[i-1][j])
         matrix.append(arr)
     return matrix
-  
